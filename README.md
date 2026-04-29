@@ -1,23 +1,25 @@
 # GitHub User Lookup
 
-This is a simple Ruby script that connects to the GitHub public API and displays GitHub user information.
+This is a simple Ruby script that connects to the GitHub public API and displays the GitHub user information of a specific user.
 
-## What it does
+## Features
 
 1. Fetches user data from the GitHub API.
 2. Shows profile details such as name, bio, location, followers...
 3. Gets and lists all public repos.
 
-## Usage
+## Installation and usage
 
 ```
-ruby github_lookup.rb
+git clone https://github.com/srdez/github-user-lookup.git
+cd github-user-lookup
+ruby github-lookup.rb
 ```
 
 ## Demo
 
 ```
-$ ruby github_lookup.rb 
+$ ruby github-lookup.rb 
 Please enter a GitHub username to check: id-software
 
 Retrieving data...
@@ -97,7 +99,7 @@ id-Software has 20 public repos:
  URL                     : https://github.com/id-Software/Wolf3D-iOS
 ```
 
-## 💻 System Requirements
+## Requirements
 
 - Ruby 2.5+
 
